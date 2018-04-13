@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://47.98.57.126:9500/eureka/
+server:
+  port: 9510
+spring:
+  application:
+    name: service-hi
